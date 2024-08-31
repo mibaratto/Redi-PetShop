@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/styles/homePage.css" rel="stylesheet" />
+    <link href="/styles/navigationBar.css" rel="stylesheet" />
+    <link href="/styles/productDetail.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <container class="container">
+      <header>
+        <div class="header-logo">
+          <a href="/index.html"><img src="/img/logo.jpg" class="logo" /></a>
+        </div>
+        <input
+          class="navigation-input-search"
+          placeholder="What does your pet need?"
+        />
+        <nav class="header-navigation">
+          <!-- <a class="navigation-links">Link 1</a> -->
+          <!-- <a>Link 2</a> -->
+          <a href="/shoppingCartPage.html" class="material-symbols-outlined"
+            ><span> shopping_cart </span></a
+          >
+          <a>Login</a>
+        </nav>
+      </header>
+      <div class="main-container">
+        <!-- *******TOP GROUP - Tumbnails, main Img, Infos product -->
+        <div class="main-products-infos-container">
+          <div class="image-group-all">
+            <!-- ******* MAIN IMAGENS GROUP -->
+            <div class="image-scroll-box">
+              <!-- <img
+                class="product-main-img"
+                src="https://www.sparkpaws.de/cdn/shop/files/3_ede5374d-f8d3-49e8-95f5-4374ed4bbeff_600x.jpg?v=1695397192"
+              /> -->
+              <img
+                class="product-main-img"
+                id="image-zoon-1"
+                src="/img/detailProduct/2697116_Nutrilus-Prime-Raças-Pequenas.jpeg"
+                alt=""
+              />
+              <img
+                class="product-main-img"
+                id="image-zoon-2"
+                src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115_1.jpeg"
+                alt=""
+              />
+              <img
+                class="product-main-img"
+                id="image-zoon-3"
+                src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115_2.webp"
+                alt=""
+              />
+              <img
+                class="product-main-img"
+                id="image-zoon-4"
+                src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115.webp"
+                alt=""
+              />
+            </div>
+
+            <!-- ******* TUMBNAILS GROUP -->
+            <div class="product-tumb-group">
+              <a href="#image-zoon-1">
+                <img
+                  class="product-secondary-img"
+                  src="/img/detailProduct/2697116_Nutrilus-Prime-Raças-Pequenas.jpeg"
+                  alt=""
+              /></a>
+
+              <a href="#image-zoon-2">
+                <img
+                  class="product-secondary-img"
+                  src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115_1.jpeg"
+                  alt=""
+              /></a>
+              <a href="#image-zoon-3">
+                <img
+                  class="product-secondary-img"
+                  src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115_2.webp"
+                  alt=""
+              /></a>
+              <a href="#image-zoon-4">
+                <img
+                  class="product-secondary-img"
+                  src="/img/detailProduct/Ração_Seca_Nutrilus_Prime_Frango_para_Cães_Adultos_de_Raças_Pequenas__2697115.webp"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <!-- ******* PRODUCT DETAILS GROUP -->
+          <div class="aside-infos">
+            <div class="rating">★ 4.5</div>
+            <h3>Nutrilus Prime Chicken Dry Food for Adult Small Breed Dogs</h3>
+            <h3 class="price">30,95 €</h3>
+
+            <div>
+              <p>Choose the size:</p>
+              <div class="radio-buttons">
+                <div>
+                  <input type="radio" id="XS" name="size" />
+                  <label for="XS" checked="checked">10 Kg</label>
+                </div>
+                <div>
+                  <input type="radio" id="S" name="size" />
+                  <label for="S" checked="checked">20 kg</label>
+                </div>
+                <div>
+                  <input type="radio" id="M" name="size" />
+                  <label for="M" checked="checked">30 kg</label>
+                </div>
+              </div>
+            </div>
+            <a href="/shoppingCartPage.html" class="buy-button">BUY</a>
+          </div>
+        </div>
+        <!-- ******* BOTTON - PRODUCT DESCRIPTION -->
+
+        <div class="product-description">
+          <h4 class="product-description-title">Product Description</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            placerat urna tellus, eget bibendum ipsum ullamcorper quis. In
+            faucibus vitae quam id tempor. Cras consequat luctus lacus, nec
+            facilisis ipsum imperdiet at. Integer maximus varius dui a
+            tincidunt. Phasellus consectetur ut dolor vel consectetur. Quisque
+            blandit nulla vitae bibendum finibus. Proin at lacus nec felis
+            rutrum interdum. Integer non lobortis lacus. Nullam faucibus vitae
+            nisl cursus auctor. Nunc vel efficitur velit. Fusce ultrices dui eu
+            condimentum tempus. Nam vestibulum sed urna sit amet sodales.
+          </p>
+        </div>
+      </div>
+      <footer></footer>
+    </container>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+/* 
+----COLOR SYSTEM
+main color (orange): #FF7946
+secondary Color (yellow): #FFCC57
+ beige #F6EDD9
+  font #343a40
+
+----Fonte SYSTEM
+sizes:
+line-weigth: 
+font-weigth:
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Opens Sans", sans-serif;
+  color: #343a40;
+  /* border: 5px solid palevioletred; */
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+/* .img {
+  display: grid;
+  justify-items: center;
+
+  border: 2px solid black;
+}
+.header-img {
+  width: 800px;
+  border-radius: 30px;
+  border: 2px solid black;
+} */
+
+main {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* border: 2px solid blue; */
+  padding: 60px 60px;
+}
+
+footer {
+  background-color: #ff7946;
+  height: 20px;
+  width: 100%;
+}
